@@ -1,0 +1,8 @@
+.message {
+    border-left: 3px solid var(--color-textSecondary);    
+    background-color: #d1ecf1;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: .9rem;
+    
+}

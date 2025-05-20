@@ -1,0 +1,26 @@
+.wrap {
+    display: none;
+    justify-content: center;    
+    margin: 0 auto 1rem 0;
+
+    @media (max-width: 768px) {
+        display: flex;
+    }
+    
+}
+
+.button {
+    border: none;
+    background: none;    
+    cursor: pointer;    
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    svg {        
+        height: 40px; 
+        width: 40px;
+    }
+}

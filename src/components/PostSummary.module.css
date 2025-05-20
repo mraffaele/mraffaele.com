@@ -1,0 +1,15 @@
+.post {
+    border-bottom: 1px solid var(--color-borderPrimary);
+    padding: 0 0 1rem
+}
+
+.title a {
+    color: var(--color-brandPrimary);
+}
+
+.summary {}
+
+.date {
+    color: var(--color-textSecondary);
+    font-size: 0.9rem;
+}
