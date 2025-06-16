@@ -15,9 +15,10 @@ export const Navigation: FunctionComponent = () => {
             </Link>
 
             <nav className={styles.navItems}>
-                <Link className={styles.navItem} href="/">About</Link>
+                <Link className={styles.navItem} href="/">Home</Link>
                 <Link className={styles.navItem} href="/posts">All posts</Link>
                 <Link className={styles.navItem} href="/resume">Resume</Link>
+                <Link className={styles.navItem} href="/now">Now</Link>
                 <Link className={styles.navItemHero} href="/contact">Get in touch</Link>
             </nav>
         </div>

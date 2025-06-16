@@ -8,7 +8,12 @@
   --color-textPrimary: #3A4145;
   --color-textSecondary: #657881;
   --color-textHeading: #000000;
-  --color-linkBlue: #007bff
+  --color-linkBlue: #007bff;
+  --color-batteryLevelA: #ff4d4f;
+  --color-batteryLevelB: #ffa940;
+  --color-batteryLevelC: #faad14;
+  --color-batteryLevelD: #52c41a;
+  --color-batteryLevelE: #389e0d;
 }
 
 body {

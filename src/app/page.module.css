@@ -8,3 +8,110 @@
 .posts article:first-of-type h2 {
     margin-top: 0;
 }
+
+.updated {
+    font-size: 0.875rem;
+    color: var(--color-textSecondary);
+    margin: 3rem 0 1rem;
+}
+
+
+.energyLevels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.energyItem {
+    display: flex;
+    align-items: center;
+}
+
+.energyItemLabel {
+    flex: 0 0 125px
+    
+}
+
+
+
+
+.energyItemLevel {
+    --color-batteryLevelNeg: var(--color-borderPrimary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    border: 2px solid var(--color-textSecondary);
+    border-radius: 2rem;
+    width: 7rem;
+
+
+    &:after {
+        content: '';
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: var(--color-batteryLevelCurrent);
+        box-shadow: 
+            1.25rem 0 0px var(--color-batteryLevelNeg),
+            2.5rem 0 0px var(--color-batteryLevelNeg),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            5rem 0 0px var(--color-batteryLevelNeg);
+    }   
+}
+
+.energyItemLevel[data-val="1"] {
+    --color-batteryLevelCurrent: var(--color-batteryLevelA);
+}
+
+.energyItemLevel[data-val="2"] {
+    --color-batteryLevelCurrent: var(--color-batteryLevelB);
+
+     &:after {
+        box-shadow: 
+            1.25rem 0 0px var(--color-batteryLevelCurrent),
+            2.5rem 0 0px var(--color-batteryLevelNeg),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            5rem 0 0px var(--color-batteryLevelNeg);
+    }
+}
+.energyItemLevel[data-val="3"] {
+    --color-batteryLevelCurrent: var(--color-batteryLevelC);
+
+     &:after {
+        box-shadow: 
+            1.25rem 0 0px var(--color-batteryLevelCurrent),
+            2.5rem 0 0px var(--color-batteryLevelCurrent),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            3.75rem 0 0px var(--color-batteryLevelNeg),
+            5rem 0 0px var(--color-batteryLevelNeg);
+    }
+}
+.energyItemLevel[data-val="4"] {
+    --color-batteryLevelCurrent: var(--color-batteryLevelD);
+
+     &:after {
+        box-shadow: 
+            1.25rem 0 0px var(--color-batteryLevelCurrent),
+            2.5rem 0 0px var(--color-batteryLevelCurrent),
+            3.75rem 0 0px var(--color-batteryLevelCurrent),
+            3.75rem 0 0px var(--color-batteryLevelCurrent),
+            5rem 0 0px var(--color-batteryLevelNeg);
+    }
+}
+.energyItemLevel[data-val="5"] {
+    --color-batteryLevelCurrent: var(--color-batteryLevelE);
+
+     &:after {
+        box-shadow: 
+            1.25rem 0 0px var(--color-batteryLevelCurrent),
+            2.5rem 0 0px var(--color-batteryLevelCurrent),
+            3.75rem 0 0px var(--color-batteryLevelCurrent),
+            3.75rem 0 0px var(--color-batteryLevelCurrent),
+            5rem 0 0px var(--color-batteryLevelCurrent);
+    }
+}

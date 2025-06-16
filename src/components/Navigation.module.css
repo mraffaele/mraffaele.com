@@ -79,6 +79,8 @@
         flex-direction: row;
         width: 100%;
         border-bottom: 1px solid var(--color-borderPrimary);
+
+        
     }
 }
 
@@ -90,6 +92,10 @@
 
     @media (max-width: 768px) {
         margin: 0;
+        
+        &:nth-child(1) {
+            display: none;
+        }
     }
 }
 
