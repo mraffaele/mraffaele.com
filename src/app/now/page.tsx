@@ -48,10 +48,10 @@ export default function Now() {
       <h2>What I&apos;m Enjoying</h2>
       <ul>
         <li>
-          Our new family pup, Ollie:
-          <a href={`${basePath}/assets/2025/ollie.jpeg`} target="_blank">
+          Our new family pup, Ollie. He&apos;s getting huge:
+          <a href={`${basePath}/assets/2025/ollie-2.jpg`} target="_blank">
             <img
-              src={`${basePath}/assets/2025/ollie.jpeg`}
+              src={`${basePath}/assets/2025/ollie-2-thumb.jpg`}
               alt="Ollie"
               style={{
                 width: "100%",
