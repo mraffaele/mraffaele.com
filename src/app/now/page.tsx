@@ -48,10 +48,10 @@ export default function Now() {
       <h2>What I&apos;m Enjoying</h2>
       <ul>
         <li>
-          Our new family pup, Ollie:
-          <a href={`${basePath}/assets/2025/ollie.jpeg`} target="_blank">
+          Our new family pup, Ollie. He&apos;s getting huge:
+          <a href={`${basePath}/assets/2025/ollie-2.jpg`} target="_blank">
             <img
-              src={`${basePath}/assets/2025/ollie.jpeg`}
+              src={`${basePath}/assets/2025/ollie-2-thumb.jpg`}
               alt="Ollie"
               style={{
                 width: "100%",
@@ -67,10 +67,10 @@ export default function Now() {
         <li>
           Currently playing{" "}
           <a
-            href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/"
+            href="https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/"
             target="_blank"
           >
-            Marvel’s Spider-Man Remastered
+            S.T.A.L.K.E.R. 2: Heart of Chornobyl
           </a>
         </li>
         <li>⛹️</li>
@@ -94,7 +94,7 @@ export default function Now() {
           <div className={styles.energyItemLevel} data-val="5"></div>
         </div>
       </div> */}
-      <div className={styles.updated}>Updated: 16 October 2025</div>
+      <div className={styles.updated}>Updated: 12 December 2025</div>
     </div>
   );
 }
