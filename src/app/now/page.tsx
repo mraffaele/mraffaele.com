@@ -16,16 +16,10 @@ export default function Now() {
       <h2>What I&apos;m Making for me</h2>
       <ul>
         <li>
-          <a href="https://swiptip.com/" target="_blank">
-            SwipTip
-          </a>{" "}
-          - A fun, AI-powered, constantly evolving stream of tips and hacks. It
-          adapts based on your history.
+          Just added dark mode support for this site. No idea why I hadn&apos;t
+          earlier.
         </li>
-        <li>
-          Migrating <em>this</em> site (the one you&apos;re on) from WordPress
-          ➡️ Static Site Generation (Next.js)
-        </li>
+        <li>Developing a new way of working in the new AI world</li>
       </ul>
       <h2>What I&apos;m Making for them</h2>I work at{" "}
       <a href="https://www.rea-group.com/" target="_blank">
@@ -63,19 +57,25 @@ export default function Now() {
             />
           </a>
         </li>
-        <li>🚴 (thought admittedly less than normal of late)</li>
+        <li>
+          🚴 (trying to get ready for{" "}
+          <a href="https://murraytomoyne.com.au/" target="_blank">
+            M2M
+          </a>
+          )
+        </li>
         <li>
           Currently playing{" "}
           <a
-            href="https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/"
+            href="https://store.steampowered.com/app/1229490/ULTRAKILL/"
             target="_blank"
           >
-            S.T.A.L.K.E.R. 2: Heart of Chornobyl
+            ULTRAKILL
           </a>
         </li>
         <li>⛹️</li>
       </ul>
-      {/* <h2>Personal Battery Levels</h2>
+      <h2>Personal Battery Levels</h2>
       <div className={styles.energyLevels}>
         <div className={styles.energyItem}>
           <div className={styles.energyItemLabel}>Family:</div>
@@ -83,18 +83,18 @@ export default function Now() {
         </div>
         <div className={styles.energyItem}>
           <div className={styles.energyItemLabel}>Physical Health:</div>
-          <div className={styles.energyItemLevel} data-val="3"></div>
-        </div>
-        <div className={styles.energyItem}>
-          <div className={styles.energyItemLabel}>Mental Health:</div>
           <div className={styles.energyItemLevel} data-val="4"></div>
         </div>
         <div className={styles.energyItem}>
-          <div className={styles.energyItemLabel}>Play:</div>
-          <div className={styles.energyItemLevel} data-val="5"></div>
+          <div className={styles.energyItemLabel}>Mental Health:</div>
+          <div className={styles.energyItemLevel} data-val="3"></div>
         </div>
-      </div> */}
-      <div className={styles.updated}>Updated: 12 December 2025</div>
+        <div className={styles.energyItem}>
+          <div className={styles.energyItemLabel}>Play:</div>
+          <div className={styles.energyItemLevel} data-val="4"></div>
+        </div>
+      </div>
+      <div className={styles.updated}>Updated: 25 February 2026</div>
     </div>
   );
 }

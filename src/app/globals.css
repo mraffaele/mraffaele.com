@@ -1,34 +1,41 @@
-@import '../../node_modules/modern-normalize/modern-normalize.css';
-
+@import "../../node_modules/modern-normalize/modern-normalize.css";
 
 :root {
-  --color-borderPrimary: #EAEAEA;
-  --color-brandPrimary: #130f40;
-  --color-brandPrimaryAlt: #30336b;
-  --color-textPrimary: #3A4145;
-  --color-textSecondary: #657881;
-  --color-textHeading: #000000;
-  --color-linkBlue: #007bff;
-  --color-batteryLevelA: #ff4d4f;
-  --color-batteryLevelB: #ffa940;
-  --color-batteryLevelC: #faad14;
-  --color-batteryLevelD: #52c41a;
-  --color-batteryLevelE: #389e0d;
+  --color-logo: light-dark(#130f40, #535c68);
+  --color-borderPrimary: light-dark(#eaeaea, #30363d);
+  --color-brandPrimary: light-dark(#130f40, #535c68);
+  --color-brandPrimaryAlt: light-dark(#30336b, #7ed6df);
+  --color-textPrimary: light-dark(#3a4145, #d1d5db);
+  --color-textSecondary: light-dark(#657881, #9ca3af);
+  --color-textHeading: light-dark(#000000, #ffffff);
+  --color-linkBlue: light-dark(#007bff, #58a6ff);
+  --color-batteryLevelA: light-dark(#ff4d4f, #ff7875);
+  --color-batteryLevelB: light-dark(#ffa940, #ffc069);
+  --color-batteryLevelC: light-dark(#faad14, #ffc53d);
+  --color-batteryLevelD: light-dark(#52c41a, #73d13d);
+  --color-batteryLevelE: light-dark(#389e0d, #52c41a);
+  color-scheme: light dark;
 }
 
 body {
   font-size: 1rem;
   line-height: 1.25;
   color: var(--color-textPrimary);
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:
+    system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-textHeading);
   margin: 3rem 0 1rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   color: var(--color-textHeading);
   margin: 1.5rem 0 1rem;
 }
@@ -43,7 +50,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color:var(--color-brandPrimary);
+  color: var(--color-brandPrimary);
   text-decoration: underline;
 }
 
