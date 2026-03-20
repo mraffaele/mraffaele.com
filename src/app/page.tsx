@@ -11,7 +11,7 @@ export default async function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.intro}>
-        <p>Hi, I&apos;m Michael Raffaele; a Melbourne-based freelance Front End Developer with a focus on building clean, maintainable, and performant interfaces. I work primarily with JavaScript, HTML, and CSS, and bring a pragmatic, detail-driven approach to modern front-end architecture.</p>
+        <p>Hi, I&apos;m Michael Raffaele; a Melbourne-based freelance Front End Developer with a focus on building clean, maintainable, and performant interfaces. I work primarily with TypeScript, JavaScript, HTML, and CSS, and bring a pragmatic, detail-driven approach to modern front-end architecture.</p>
         <p>I&apos;m currently working with REA Group and have previously delivered solutions for organisations like carsales, Alinta Energy, and Tribal DDB.</p>
       </div>
       <div className={styles.posts}>
