@@ -31,6 +31,10 @@ export default function Now() {
           Everything{" "}
           <a href="https://property.com.au/" target="_blank">
             property.com.au
+          </a>{" "}
+          &amp;{" "}
+          <a href="https://flatmates.com.au/" target="_blank">
+            flatmates.com.au
           </a>
         </li>
         <li>
@@ -57,25 +61,9 @@ export default function Now() {
             />
           </a>
         </li>
-        <li>
-          🚴 (trying to get ready for{" "}
-          <a href="https://murraytomoyne.com.au/" target="_blank">
-            M2M
-          </a>
-          )
-        </li>
-        <li>
-          Currently playing{" "}
-          <a
-            href="https://store.steampowered.com/app/1229490/ULTRAKILL/"
-            target="_blank"
-          >
-            ULTRAKILL
-          </a>
-        </li>
         <li>⛹️</li>
       </ul>
-      <h2>Personal Battery Levels</h2>
+      {/* <h2>Personal Battery Levels</h2>
       <div className={styles.energyLevels}>
         <div className={styles.energyItem}>
           <div className={styles.energyItemLabel}>Family:</div>
@@ -94,7 +82,7 @@ export default function Now() {
           <div className={styles.energyItemLevel} data-val="4"></div>
         </div>
       </div>
-      <div className={styles.updated}>Updated: 25 February 2026</div>
+      <div className={styles.updated}>Updated: 25 February 2026</div> */}
     </div>
   );
 }
