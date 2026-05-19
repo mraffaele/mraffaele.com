@@ -32,7 +32,7 @@ The "aha!" moments used to happen in conversation. We'd be bouncing ideas, pushi
 
 ## The why behind the how
 
-What worries me most is the bigger picture stuff.
+What I've been thinking about most is the bigger picture stuff.
 
 The real work has always been the thinking: understanding why a system was built a certain way, spotting the pitfalls in a product idea before it becomes a roadmap nightmare. That requires depth. Sitting with complexity instead of moving past it.
 
@@ -44,6 +44,6 @@ That deeper thinking is where I actually add value, not just in code, but in the
 
 I'm not sure where it's all going - all I know is that the landscape has changed.
 
-I know I need to push back on speed when it means cutting corners. Protect the space for the invisible work - the stuff that makes the difference between functional and _good_.
+I know I need to slow down in times where speed can mean cutting corners. Protect the space for the invisible work - the stuff that makes the difference between functional and _good_.
 
-AI hasn't taken away my ability to think deeply or care about craft. In fact, it has made those choices more deliberate and demonstrated their importance more than ever. Maybe it is actually a good thing.
+AI hasn't taken away my ability to think deeply or care about craft. In fact, it has made those choices more deliberate and demonstrated their importance more than ever, and that could be a good thing.
